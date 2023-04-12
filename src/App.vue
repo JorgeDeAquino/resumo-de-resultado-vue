@@ -20,7 +20,7 @@ export default {
 
   body {
     width: 375px;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;

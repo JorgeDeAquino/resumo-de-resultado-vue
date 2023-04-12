@@ -3,33 +3,30 @@
         <h3>Summary</h3>
         <ul class="summary_category_container">
             <li class="summary_category_item">
-                <p><i>tag</i>Reaction</p>
+                <p><img src="../../assets/images/icon-visual.svg" alt="Category icon">Visual</p>
                 <p><span>80</span> / 100</p>
             </li>
-            <li class="summary_category_item">
-                <p><i>tag</i>Memory</p>
-                <p><span>80</span> / 100</p>
-            </li>
-            <li class="summary_category_item">
-                <p><i>tag</i>Verbal</p>
-                <p><span>80</span> / 100</p>
-            </li>
-            <li class="summary_category_item">
-                <p><i>tag</i>Visual</p>
-                <p><span>80</span> / 100</p>   
+            <li class="summary_category_item" v-for="item in jsonData" :key="item.category">
+                <p><img :src="`src/assets/images/${item.icon}`" alt="Category icon">{{ item.category }}</p>
+                <p><span>{{ item.score }}</span> / 100</p>
+                
             </li>
         </ul>
         <button>Continue</button>
     </div>
-  </template>
+</template>
   
-  <script>
-  export default {
+<script>
+import data from '../../json/data.json'
+export default {
     name: 'YourSummary',
-  }
-  </script>
+    data() {
+        return {
+            jsonData: data
+        };
+    }
+}
+</script>
   
-  <style scoped src="./Summary.scss" lang="scss">
-  
-  </style>
+<style scoped src="./Summary.scss" lang="scss"></style>
   

@@ -5,11 +5,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: grey;
     padding: 2% 5% 2% 5%;
 
     h3 {
         margin: 0 0 2% 0;
+    }
+
+    button {
+        background-color: $Cobalt-blue;
     }
 
     .summary_category_container {

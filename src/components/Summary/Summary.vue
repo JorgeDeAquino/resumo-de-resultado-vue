@@ -2,7 +2,7 @@
     <div class="summary_container">
         <h3>Summary</h3>
         <ul class="summary_category_container">
-            <li class="summary_category_item" v-for="item in jsonData" :key="item.category">
+            <li class="summary_category_item" :data-category="item.category" v-for="item in jsonData" :key="item.category">
                 <img :src=item.icon alt="Category icon">
                 <p>
                     {{ item.category }}

@@ -24,7 +24,7 @@
         gap: .4rem;
         padding: 0;
         width: 100%;
-        
+
         .summary_category_item {
             width: 95%;
             display: flex;
@@ -38,12 +38,30 @@
                 flex: 1;
                 text-align: right;
             }
+
             img {
                 margin-right: .4rem;
             }
         }
 
+        [data-category="Reaction"] {
+            background-color: $Light-red;
+        }
+
+        [data-category="Memory"] {
+            background-color: $Orangey-yellow;
+        }
+
+        [data-category="Verbal"] {
+            background-color: $Green-teal;
+        }
+        
+        [data-category="Visual"] {
+            background-color: $Cobalt-blue;
+        }
+
     }
+
     button {
         width: 100%;
         padding: 3%;

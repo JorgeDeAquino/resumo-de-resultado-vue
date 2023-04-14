@@ -3,8 +3,14 @@
         <h3>Summary</h3>
         <ul class="summary_category_container">
             <li class="summary_category_item" v-for="item in jsonData" :key="item.category">
-                <p><img :src=item.icon alt="Category icon">{{ item.category }}</p>
-                <p><span>{{ item.score }}</span> / 100</p>
+                <img :src=item.icon alt="Category icon">
+                <p>
+                    {{ item.category }}
+                </p>
+                <p>
+                    <span>{{ item.score }}</span> 
+                    / 100
+                </p>
                 
             </li>
         </ul>

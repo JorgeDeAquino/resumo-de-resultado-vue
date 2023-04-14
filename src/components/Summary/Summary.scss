@@ -71,5 +71,9 @@
         border: none;
         font-size: 1rem;
         margin: 4% 0 2% 0;
+        
+        &:hover {
+            background-color: $background-btn;
+        }
     }
 }

@@ -2,12 +2,8 @@
     <div class="summary_container">
         <h3>Summary</h3>
         <ul class="summary_category_container">
-            <li class="summary_category_item">
-                <p><img src="../../assets/images/icon-visual.svg" alt="Category icon">Visual</p>
-                <p><span>80</span> / 100</p>
-            </li>
             <li class="summary_category_item" v-for="item in jsonData" :key="item.category">
-                <p><img :src="`src/assets/images/${item.icon}`" alt="Category icon">{{ item.category }}</p>
+                <p><img :src=item.icon alt="Category icon">{{ item.category }}</p>
                 <p><span>{{ item.score }}</span> / 100</p>
                 
             </li>

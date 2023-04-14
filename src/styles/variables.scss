@@ -6,17 +6,17 @@
 
 // Primary
 
-$Light-red: hsla(0, 100%, 67%, 0.12);
-$Orangey-yellow: hsla(39, 100%, 56%, 0.12);
-$Green-teal: hsla(166, 100%, 37%, 0.12);
-$Cobalt-blue: hsla(234, 85%, 45%, 0.12);
+$Light-red: hsla(0, 100%, 67%, 0.11);
+$Orangey-yellow: hsla(39, 100%, 56%, 0.11);
+$Green-teal: hsla(166, 100%, 37%, 0.11);
+$Cobalt-blue: hsla(234, 85%, 45%, 0.11);
 
 // Gradients
 
 $background-light-slate-blue: hsl(252, 100%, 67%);
-$background-light-royal-blue: hsl(241, 81%, 54%);
+$background-light-royal-blue: hsla(241, 81%, 54%, .8);
 
-$circle-violet-blue: hsla(256, 72%, 46%, 1);
+$circle-violet-blue: hsla(256, 72%, 46%, .6);
 $circle-persian-blue: hsla(241, 72%, 46%, 0);
 
 

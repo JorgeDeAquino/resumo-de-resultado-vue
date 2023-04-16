@@ -17,15 +17,15 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 375px;
+  box-sizing: border-box;
+}
 
-  body {
-    width: 375px;
-    max-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 </style>
 

@@ -11,7 +11,6 @@
                     <span>{{ item.score }}</span> 
                     / 100
                 </p>
-                
             </li>
         </ul>
         <button>Continue</button>

@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style lang="scss">
-body {
+#app {
   max-height: 100vh;
   display: flex;
   flex-direction: column;

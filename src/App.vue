@@ -17,6 +17,10 @@ export default {
 </script>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
   max-height: 100vh;
   display: flex;
@@ -26,7 +30,6 @@ export default {
   width: 375px;
   box-sizing: border-box;
   @media (min-width: 1341px) { // for devices with width larger than 1440px
-    width: 1440px;
     flex-direction: row;
   }
 }

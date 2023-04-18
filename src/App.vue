@@ -25,6 +25,10 @@ export default {
   padding: 0;
   width: 375px;
   box-sizing: border-box;
+  @media (min-width: 1341px) { // for devices with width larger than 1440px
+    width: 1440px;
+    flex-direction: row;
+  }
 }
 
 </style>

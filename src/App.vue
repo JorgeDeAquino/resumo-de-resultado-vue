@@ -21,6 +21,7 @@ export default {
   margin: 0;
   padding: 0;
 }
+
 #app {
   max-height: 100vh;
   display: flex;
@@ -29,9 +30,12 @@ export default {
   padding: 0;
   width: 375px;
   box-sizing: border-box;
-  @media (min-width: 1341px) { // for devices with width larger than 1440px
+
+  @media (min-width: 1341px) {
+    // for devices with width larger than 1440px
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
-
 </style>

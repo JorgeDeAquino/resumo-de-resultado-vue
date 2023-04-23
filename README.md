@@ -28,3 +28,4 @@ Ajustes:
 - ajustar para desktop
 - centralizar
 - conferir responsividade
+- ajustes finais
